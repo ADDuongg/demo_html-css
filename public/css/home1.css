@@ -27,7 +27,7 @@
 }
 
 #content {
-    margin-left: auto;
+    
 }
 
 .btnDetail {
@@ -550,3 +550,28 @@
 .fa-circle-play{
     cursor: pointer;
 }
+.pictureService{
+    cursor: pointer;
+    transition: all 0.7s ease;
+}
+.pictureService:hover{
+    transform :scale(1.5);
+}
+.picture-aboutus{
+    cursor: pointer;
+    transition: all 0.7s ease;
+}
+.picture-aboutus:hover{
+    transform: scale(1.2);
+}
+.image-slider{
+    animation: moveUpDown 2s linear infinite alternate;
+}
+@keyframes moveUpDown {
+    0% {
+      transform: translateY(0); 
+    }
+    100% {
+      transform: translateY(-30px); 
+    }
+  }
