@@ -17,7 +17,7 @@
 /* main-slider */
 #main-slider {
     height: 805px;
-    width: 1286.5px;
+    width: 100%;
     background-image: url('../images/Background.png');
     background-repeat: no-repeat;
     display: flex;
@@ -52,7 +52,7 @@
 
 .image-slider {
     height: 400px;
-    width: 630px;
+    width: 100%;
 }
 
 .divBtnSlide {
@@ -83,7 +83,7 @@
 
 #coreServices {
     /* margin-top: 5rem; */
-    width: 1140px;
+    width: 100%;
     height: 732px;
     margin-top: 4rem;
     margin-left: auto;
@@ -180,7 +180,7 @@
 
 /* about us */
 #aboutUs {
-    width: 1291.15px;
+    width: 100%;
     height: 700px;
     gap: 0px;
     border-radius: 50px 0px 0px 0px;
@@ -398,7 +398,7 @@
 
 /* Contact */
 #contact {
-    width: 1291.15px;
+    width: 100%;
     height: 1015px;
     gap: 0px;
     border-radius: 50px 0px 0px 0px;
@@ -415,7 +415,7 @@
     bottom: 10%;
     background-image: url('../images/Background-Contact.png');
     background-repeat: no-repeat;
-    width: 948.15px;
+    width: 100%;
     height: 100%;
     gap: 0px;
     z-index: 1;
@@ -445,7 +445,7 @@
 
 .divContentContact {
     display: flex;
-    width: auto;
+    width: 100%;
     z-index: 10;
     position: absolute;
     padding-top: 10rem;
