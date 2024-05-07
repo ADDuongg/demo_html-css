@@ -243,14 +243,14 @@
 
                 <form class="formContact">
                     <div class="nameInput">
-                        <input type="text" name="f-name" class="fname inputContact" placeholder="First Name">
-                        <input type="text" name="l-name" class="lname inputContact" placeholder="Last Name">
+                        <input type="text" name="f-name" class="fname inputContact" placeholder="First Name" required>
+                        <input type="text" name="l-name" class="lname inputContact" placeholder="Last Name" required>
                     </div>
-                    <input type="text" name="l-name" class="emailInput inputContact " placeholder="Email address">
+                    <input type="email" name="mail" class="emailInput inputContact " placeholder="Email address" required>
 
-                    <input type="text" name="l-name" class="subjectInput inputContact " placeholder="Subject message">
-                    <textarea type="text" name="l-name" class="inquiryInput inputContact "
-                        placeholder="Your inquiry here">
+                    <input type="text" name="subject" class="subjectInput inputContact " placeholder="Subject message" required>
+                    <textarea type="text" name="inquiry" class="inquiryInput inputContact "
+                        placeholder="Your inquiry here" required>
                     </textarea>
 
                     <button class="btn btn-contact" type="submit">Send Message</button>

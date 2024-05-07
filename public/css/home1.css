@@ -535,9 +535,18 @@
 }
 
 .btn-contact {
+    cursor: pointer;
     width: 248px;
     height: 58px;
     gap: 0px;
     border-radius: 50px;
     opacity: 0px;
+}
+.btn:hover{
+    border: 1px solid var(--btn-color);
+    background-color: white;
+    color: var(--btn-color);
+}
+.fa-circle-play{
+    cursor: pointer;
 }
