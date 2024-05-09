@@ -66,8 +66,12 @@
 }
 
 @media (max-width: 550px) {
+   
     .contentAboutUs > .sub-title{
         font-size: 20px;
+    }
+    .picture-aboutus{
+        width: 25rem;
     }
     .iconFooter > i{
         font-size: 20px;
@@ -209,7 +213,10 @@
         font-size: 20px;
         width: auto;
     }
-
+    .picture-aboutus{
+        width: 100%;
+        margin-top: 5rem;
+    }
     .divContentAboutUs {
         flex-direction: column;
         align-items: center;
@@ -222,13 +229,14 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
     #aboutUs {
         width: 100%;
         /* height: auto; */
     }
     #our-team{
-        padding-top: 10rem;
+        padding-top: 12rem;
     }
     .divButton{
         margin-top: 10px;
@@ -245,6 +253,7 @@
     }
     #contact{
         width: 100%;
+        
     }
     .bg-footer {
         position: absolute;
